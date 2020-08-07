@@ -4,6 +4,12 @@
 
 For this we have use helmfile. Loki, prometheus-operator, grafana are installed in monitoring namespace whereas ingress-nginx has been installed in ingress-nginx namespace.
 
+## Instasll Helmfile
+
+* url : https://github.com/roboll/helmfile/releases
+* Download the package: helmfile_linux_amd64
+* mv helmfile_linux_amd64 helmfile; chmod +x helmfile; sudo mv helmfile /usr/local/bin
+  
 Create a file called helmfile.yaml and enter the following
 
 ```
